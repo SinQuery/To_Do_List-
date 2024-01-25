@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+  }
+
+  body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+  }
+
+
+  :root{
+    --main-color: black;
+    --primary-color: ;
+    --alternate-color-1: 
+  }
+
+  .container{
+    width: 100%;
+    max-width:40vw ;
+    background: #fff;
+    margin: 5rem auto 1rem;
+    padding: 30px 30px 30px;
+    border-radius: 40px;
+
+    border-radius: 50px;
+    background: #eeaeca;
+    box-shadow: inset 24px 24px 47px #ca94ac,
+                inset -24px -24px 47px #ffc8e8;
+
+  }
+
+  .container h1{
+    text-align: center;
+  }
+
+  .navbar h1{
+    align-items: center; 
+  }
+
+  .container1{
+    width: 100%;
+    max-width:40vw ;
+    background: #fff;
+    margin:2rem auto 1rem;
+    padding: 30px 30px 30px;
+    border-radius: 40px;
+
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ccd9e8, #acb7c3);
+    box-shadow:  24px 24px 47px #a2adb8,
+                -24px -24px 47px #dce9fa;
+
+  }
+
+  .list-item{
+    /* background-color: rgb(66, 129, 201); */
+    margin: 0 0 5px;
+    padding: 0.4em 0.4em;
+    border-radius: 0.5em;
+    
+  }
+  
+  .list-item:hover{
+    background-color: rgb(66, 129, 201);
+    margin: 0 0 5px;
+    padding: 0.4em 0.4em;
+    border-radius: 0.5em;
+    
+  }
+
+  .list-item i{
+    display: inline-block;
+    justify-content: right;
+    text-align: right;
+  }
+
+  .navbar{
+    text-align: center;
+  }
+
+  /* .MenuButt {
+    padding: 16px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } */
+
+  
+
+/*Dropdown button*/
+
+.dropdown-container {
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+      
+  border-radius: 50px;
+        
+        bottom: 1rem;
+       
+    
+        background: transparent;
+        transform: translateY(60px);
+ 
+}
+
+.round-button {
+  
+    background: #eeaeca;
+    box-shadow: inset 24px 24px 47px #ca94ac,
+                inset -24px -24px 47px #ffc8e8;
+
+ 
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 160px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text{
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.dropdown-content input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
