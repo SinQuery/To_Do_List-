@@ -84,13 +84,18 @@
     text-align: center;
   }
 
-  /* .MenuButt {
-    padding: 16px;
-    margin-left: 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  } */
+  .menu{
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: left;
+      position: relative;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
 
   
 
@@ -105,7 +110,7 @@
       
   border-radius: 50px;
         
-        bottom: 1rem;
+        bottom: 0.5rem;
        
     
         background: transparent;
@@ -123,7 +128,7 @@
   color: #fff;
   border: none;
   border-radius: 50%;
-  padding: 10px 20px;
+  padding: 20px  25px;
   cursor: pointer;
 }
 
@@ -135,18 +140,16 @@
   z-index: 1;
   min-width: 160px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 40px;
+  top: 4.5rem;
 }
 
-.text{
+
+
+.dropdown-content input {
   flex: 1;
   border: none;
   outline: none;
   background: transparent;
-}
-.dropdown-content input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
+  padding: 10px;
 }

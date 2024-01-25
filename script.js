@@ -1,4 +1,4 @@
-function toggleDropdown() {
+  function toggleDropdown() {
     var dropdown = document.getElementById("myDropdown");
     dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
   }
@@ -12,3 +12,9 @@ function toggleDropdown() {
       }
     }
   }
+
+// document.getElementById('checkBox').addEventListener('click', () => console.log('I have been clicked.'));
+
+let checkBox = document.getElementById('checkBox');
+// checkBox.addEventListener('click', () => console.log('I have been clicked.'));
+
