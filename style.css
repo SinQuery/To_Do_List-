@@ -147,9 +147,13 @@
 
 
 .dropdown-content input {
-  flex: 1;
+  flex: 0.5;
   border: none;
   outline: none;
   background: transparent;
   padding: 10px;
+}
+
+.dropdown-content button {
+  display: flex;
 }
