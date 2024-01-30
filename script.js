@@ -14,7 +14,6 @@
   }
 
 // document.getElementById('checkBox').addEventListener('click', () => console.log('I have been clicked.'));
-
 // let checkBox = document.getElementById('checkBox');
 // checkBox.addEventListener('click', () => console.log('I have been clicked.'));
 

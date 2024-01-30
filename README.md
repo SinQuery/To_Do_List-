@@ -11,4 +11,4 @@
 - Create submit button for the add task feature. [Incomplete]
 
 ### Malusi's Commits 
-
+- Fix navbar button.
