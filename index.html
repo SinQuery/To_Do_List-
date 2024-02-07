@@ -6,16 +6,23 @@
     <title>To-Do-List</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
         <!--Navbar-->
             <div class="container">
                 <div class="navbar">
-                    <button class="menu-button">
+                    <div class="menu-dropdown">
+                    <button class="menu-button" onclick="toggleDropdown('menuButton')">
                         <i class="fas fa-bars"></i><!--  menu icon -->
                     </button>
-                  <h1>To-Do-List</h1>   
-                </div>
+                  <h1>To-Do-List</h1> 
+                  <div class="menu-dropdown-content" id="menuButton">
+                    <a href="Bin.html" target="_self"><i class="bi bi-trash3-fill"></i>Bin</a>
+                  </div> 
+                </div> 
+                </div>  
             </div>
         
         <!--Main Container-->
@@ -50,13 +57,31 @@
                     <i class='bx bxs-edit-alt' id="edit"></i>
                     <i class='bx bxs-x-square' id="delete"></i>
                 </div>
+                <!-- </div>
+                <div class="list-items">
+                    <ul id="text-list">
+                        <li>
+                            
+                        </li>
+                    </ul>
+                    <button onclick="deleteSelected()">Delete Selected</button>
+                </div> -->
+                <table id="text-table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>List</th>
+                        </tr>
+                    </thead>
+                    <tbody id="text-list"></tbody>
+                </table>
             </div>
               <!--Dropdown Button-->
             <div class="dropdown-container">
-                <button class="round-button" onclick="toggleDropdown()">+</button>
+                <button class="round-button" onclick="toggleDropdown('myDropdown')">+</button>
                 <div class="dropdown-content" id="myDropdown">
                   <input type="text" id="input-box" placeholder="Enter text">
-                  <button>Add</button>
+                  <button onclick="saveText()">Add</button>
                 </div>
 
             </div>
