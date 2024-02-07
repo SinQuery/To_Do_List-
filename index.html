@@ -11,11 +11,13 @@
         <!--Navbar-->
             <div class="container">
                 <div class="navbar">
+                    <button class="menu-button">
+                        <i class="fas fa-bars"></i><!--  menu icon -->
+                    </button>
                   <h1>To-Do-List</h1>   
                 </div>
             </div>
         
-
         <!--Main Container-->
         <div class="container1">
             <div class="form">
@@ -31,35 +33,34 @@
                 <p>Alternative Item 7</p>
                 <br> -->
                 <div class="list-item">
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="checkBox">
                     <label for="checkbox">Item 8</label>
                     <i class='bx bxs-edit-alt'></i>
                     <i class='bx bxs-x-square'></i>
                 </div>
                 <div class="list-item">
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="" toggle>
                     <label for="checkbox">Item 9</label>
-                    <i class='bx bxs-edit-alt'></i>
-                    <i class='bx bxs-x-square'></i>
+                    <i class='bx bxs-edit-alt' id="edit"></i>
+                    <i class='bx bxs-x-square' id="delete"></i>
                 </div>
                 <div class="list-item">
                     <input type="checkbox" name="" id="">
                     <label for="checkbox">Item 10</label>
-                    <i class='bx bxs-edit-alt'></i>
-                    <i class='bx bxs-x-square'></i>
+                    <i class='bx bxs-edit-alt' id="edit"></i>
+                    <i class='bx bxs-x-square' id="delete"></i>
                 </div>
             </div>
               <!--Dropdown Button-->
             <div class="dropdown-container">
                 <button class="round-button" onclick="toggleDropdown()">+</button>
                 <div class="dropdown-content" id="myDropdown">
-                  <input type="text" placeholder="Enter text">
+                  <input type="text" id="input-box" placeholder="Enter text">
+                  <button>Add</button>
                 </div>
-              </div>
-        </div>
-      
-  
 
+            </div>
+        </div>
         <!--Footer pictures-->
        
     <script src="script.js"></script>

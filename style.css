@@ -37,10 +37,32 @@
 
   .container h1{
     text-align: center;
+    display: inline-block;
+    margin: 10px;
   }
 
+  .container button{
+    display: inline-block;
+  }
+
+  .menu-button {
+    padding: 10px 20px;
+    width: 80px;
+    height: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #d2a4a1; /* Dusty pink color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.menu-button:hover {
+    background-color: #b0827f; /* Darker pink on hover */
+}
+
   .navbar h1{
-    align-items: center; 
+    align-items: center;
   }
 
   .container1{
@@ -71,7 +93,6 @@
     margin: 0 0 5px;
     padding: 0.4em 0.4em;
     border-radius: 0.5em;
-    
   }
 
   .list-item i{
@@ -81,16 +102,14 @@
   }
 
   .navbar{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  /* .MenuButt {
-    padding: 16px;
-    margin-left: 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  } */
+  .buttons{
+    display: inline-block;
+  }
 
   
 
@@ -105,7 +124,7 @@
       
   border-radius: 50px;
         
-        bottom: 1rem;
+        bottom: 0.5rem;
        
     
         background: transparent;
@@ -123,7 +142,7 @@
   color: #fff;
   border: none;
   border-radius: 50%;
-  padding: 10px 20px;
+  padding: 20px  25px;
   cursor: pointer;
 }
 
@@ -133,20 +152,37 @@
   background-color:transparent;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  min-width: 160px;
+  max-width: 160px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 40px;
+  top: 4.5rem;
 }
 
-.text{
-  flex: 1;
+
+
+.dropdown-content input {
+  flex: 0.5;
   border: none;
   outline: none;
   background: transparent;
+  padding: 10px;
 }
-.dropdown-content input {
-  width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  box-sizing: border-box;
+
+.dropdown-content button {
+  
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  margin: 10px;
+  background:  #eeaeca;
+  box-shadow: inset 24px 24px 47px #ca94ac,
+              inset -24px -24px 47px #ffc8e8;
+              color: black;
+    font-weight: bold;
+              cursor: pointer;
+              border-radius: 40px;
+
+              align-items: center;
+              
 }
+
