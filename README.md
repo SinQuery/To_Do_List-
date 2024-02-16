@@ -11,4 +11,9 @@
 - Create submit button for the add task feature. [Incomplete]
 
 ### Malusi's Commits 
-- Fix navbar button.
+- Fix navbar button. [Done]
+- Create Recycle Bin page [Done]
+- Create Bin dropdown option [Done]
+- Add bootrap-icon library(stylesheet) [Done]
+- Add font awesome (stylesheet) [Done]
+
